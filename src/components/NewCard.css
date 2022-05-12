@@ -1,0 +1,24 @@
+.new-card{
+    display: flex;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0,0,0,.125);
+    flex-direction: column;
+    margin: 6px 0;
+}
+
+.new-card .body{
+    padding: 10px;
+}
+
+.new-card .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.new-card .buttons button {
+    margin: 3px;
+    padding: 10px;
+    background: white;
+    border: 1px solid rgba(0,0,0,.125);
+}
